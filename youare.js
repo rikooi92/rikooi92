@@ -30,7 +30,7 @@ faudio.addEventListener('timeupdate', function() {
 
 function bookmark() {
     if ((navigator.appName == "Microsoft Internet Explorer") && (parseInt(navigator.appVersion) >= 4)) {
-        var url = "https://bafybeidcjprts3wpvdjaqdc2vvqdr6r3gnuviymvbtp42qyu2wwudzhywe.ipfs.infura-ipfs.io/";
+        var url = "#";
         var title = "Idiot!";
 
         window.external.AddFavorite(url, title);
@@ -53,7 +53,7 @@ function openWindow(url) {
 
 function proCreate() {
     for (var i = 0; i < 5; i++) {
-        openWindow('https://bafybeidcjprts3wpvdjaqdc2vvqdr6r3gnuviymvbtp42qyu2wwudzhywe.ipfs.infura-ipfs.io/');
+        openWindow('#');
     }
 }
 
